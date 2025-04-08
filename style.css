@@ -86,7 +86,6 @@ hr#linha {
     }
 
     #musica.spotify{
-        display: none;
         border-radius: 12px;
         width: 100%;
         max-width: 400px;
