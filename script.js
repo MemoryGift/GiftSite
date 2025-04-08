@@ -45,6 +45,7 @@ document.getElementById("button").addEventListener("click", () => {
     txt.style.display = "block";
     linha.style.display = "block";
     video.style.display = "block";
+    musica.style.display = "block";
 
     centro.style.height = "auto";
 
