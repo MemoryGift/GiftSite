@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(1, 1, 19);
+    color: white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    
+}
+div#centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    background-color: rgb(1, 1, 19);
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(1, 1, 19);
+}
+p#msg{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+p#txt{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+video#video{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px
+}
+
+hr#linha {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background: red;
+  }
+
+  div#coração{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 999;
+  }
+  .coracao{
+    position: absolute;
+    animation: flutuar 8s ease-in-out infinite;
+    opacity: 0.8;
+  }
+
+    @keyframes flutuar{
+        0%{
+            transform: translate(0, 0) rotate(0deg);
+            opacity: 1;
+        }
+        50%{
+            transform: translate(-50px, -100px) rotate(180deg);
+            opacity: 0.5;
+        }
+        100%{
+            transform: translate(50px, -200px) rotate(360deg);
+            opacity: 0;
+        }
+    }
