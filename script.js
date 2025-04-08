@@ -6,6 +6,7 @@ const txt = document.getElementById("txt");
 const video = document.getElementById("video");
 const centro = document.getElementById("centro");
 const coracao = document.getElementById("coração")
+const musica = document.getElementById("musica");
 
 function attHora(){
 const agora = new Date();
