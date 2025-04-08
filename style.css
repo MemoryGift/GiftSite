@@ -84,3 +84,13 @@ hr#linha {
             opacity: 0;
         }
     }
+
+    #musica.spotify{
+        display: none;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 400px;
+        height: 152px;
+        margin: 0 auto;
+        display: block;
+        }
